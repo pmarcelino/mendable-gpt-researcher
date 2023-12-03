@@ -14,7 +14,9 @@ This Python script automates the verification of citations and references in res
     - Missing sources (sources mentioned in the text but not listed in the References).
 
 ## Setup and Usage
-- Configure environment variables, install dependencies, and customize script paths.
+- Configure environment variables (see .env.example)
+- Install dependencies `pip install -r requirements.txt` 
+- customize script paths.
 - Run the script after placing text documents in the designated folder.
 - Review the generated markdown reports for verification results.
 
