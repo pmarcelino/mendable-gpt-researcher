@@ -16,7 +16,7 @@ This Python script automates the verification of citations and references in res
 ## Setup and Usage
 - Configure environment variables (see .env.example)
 - Install dependencies `pip install -r requirements.txt` 
-- customize script paths.
+- Customize script paths.
 - Run the script after placing text documents in the designated folder.
 - Review the generated markdown reports for verification results.
 
