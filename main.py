@@ -26,7 +26,8 @@ def list_files_in_folder(folder_path):
 
 def get_references(text):
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-3.5-turbo-1106",
+        response_format={ "type": "json_object" },
         messages=[
             {
                 "role": "system",
@@ -70,7 +71,8 @@ def add_sources(references):
 
 def get_citations(text):
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-3.5-turbo-1106",
+        response_format={ "type": "json_object" },
         messages=[
             {
                 "role": "system",
