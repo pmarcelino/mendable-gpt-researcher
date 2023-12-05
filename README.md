@@ -14,6 +14,18 @@ This Python script automates the verification of citations and references in res
     - Missing sources (sources mentioned in the text but not listed in the References).
 
 ## Setup and Usage
+
+### Mendable
+- Start a new projext.
+- Generate an API key.
+- Go to `Workshop > Customize Model > Edit Full Prompt`.
+- Replace the default prompt by:
+
+```
+You are a fact checker who is part of the {company} team. Given the following verified sources and a question, answer the question saying True or False.
+```
+
+### Script
 - Configure environment variables, install dependencies, and customize script paths.
 - Run the script after placing text documents in the designated folder.
 - Review the generated markdown reports for verification results.
